@@ -1,0 +1,91 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Road Crack Detection</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101418;
+      color: #f3f4f6;
+    }
+    header {
+      padding: 24px;
+      background: #1b2229;
+      border-bottom: 1px solid #343c45;
+    }
+    main { max-width: 850px; margin: 40px auto; padding: 20px; }
+    .panel {
+      padding: 28px;
+      background: #1b2229;
+      border: 1px solid #343c45;
+      border-radius: 14px;
+    }
+    input, button {
+      width: 100%;
+      margin-top: 16px;
+      padding: 13px;
+      border-radius: 8px;
+    }
+    button {
+      border: 0;
+      background: #d1d5db;
+      color: #111827;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    img { max-width: 100%; margin-top: 20px; border-radius: 8px; }
+    .muted { color: #a8b0ba; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Road Crack Detection</h2>
+    <p class="muted">YOLO26s + STRIP | Visual explanations | VLM descriptions</p>
+  </header>
+  <main>
+    <section class="panel">
+      <h3>Analyze a road image</h3>
+      <p class="muted">Select a road image to preview it before analysis.</p>
+      <input id="imageInput" type="file" accept="image/*">
+      <img id="preview" alt="Selected road image preview" hidden>
+      <button id="analyzeButton" disabled>Analyze Image</button>
+      <p id="status" class="muted" aria-live="polite">
+        Select an image to begin.
+      </p>
+    </section>
+  </main>
+  <script>
+    const input = document.getElementById("imageInput");
+    const preview = document.getElementById("preview");
+    const button = document.getElementById("analyzeButton");
+    const status = document.getElementById("status");
+
+    input.addEventListener("change", () => {
+      const file = input.files[0];
+      if (!file) return;
+
+      if (!file.type.startsWith("image/")) {
+        status.textContent = "Please select an image file.";
+        button.disabled = true;
+        return;
+      }
+
+      preview.src = URL.createObjectURL(file);
+      preview.hidden = false;
+      button.disabled = false;
+      status.textContent = "Image selected. Model inference is not connected yet.";
+    });
+
+    button.addEventListener("click", () => {
+      status.textContent =
+        "Frontend ready. Next, we will connect the trained YOLO26s + STRIP model.";
+    });
+  </script>
+</body>
+</html>
+```
