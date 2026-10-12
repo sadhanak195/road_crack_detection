@@ -1,0 +1,9 @@
+﻿gradio
+spaces
+ultralytics
+torch
+torchvision
+opencv-python-headless
+numpy
+Pillow
+requests
