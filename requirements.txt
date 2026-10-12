@@ -1,9 +1,9 @@
-﻿gradio
-spaces
+fastapi
+python-multipart
 ultralytics
 torch
 torchvision
 opencv-python-headless
 numpy
 Pillow
-requests
+uvicorn
