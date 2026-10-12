@@ -1,0 +1,786 @@
+[
+  {
+    "tag": "00_Longitudinal_Crack",
+    "dets": [
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.8708142042160034,
+        "box": [
+          15.1,
+          233.8,
+          135.6,
+          637.7
+        ],
+        "position": "bottom-left",
+        "area_pct": 11.880281658650347
+      },
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.8296751379966736,
+        "box": [
+          288.6,
+          0.0,
+          542.0,
+          640.0
+        ],
+        "position": "middle-center",
+        "area_pct": 39.58518028259277
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/00_Longitudinal_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/China_MotorBike_001473_jpg.rf.47dbb777792008267892dc3612fe1f02.jpg",
+    "sample_class": "Longitudinal Crack",
+    "severity_rule": "high",
+    "main_detection": "Longitudinal Crack",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": true,
+    "vlm_explanation": "1. Visible damage (type, rough size, location): Longitudinal crack, large, middle-center.\n2. Detector check: Agree with the detections. No other significant damage is visible.\n3. Recommended action: Repair the longitudinal crack immediately to prevent further deterioration."
+  },
+  {
+    "tag": "01_Longitudinal_Crack",
+    "dets": [
+      {
+        "class": "Transverse Crack",
+        "conf": 0.8206186890602112,
+        "box": [
+          0.0,
+          432.1,
+          628.4,
+          568.3
+        ],
+        "position": "bottom-center",
+        "area_pct": 20.898487968173868
+      },
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.7879624366760254,
+        "box": [
+          306.1,
+          332.3,
+          456.5,
+          441.7
+        ],
+        "position": "middle-center",
+        "area_pct": 4.014517501218506
+      },
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.6358996629714966,
+        "box": [
+          126.5,
+          351.5,
+          313.7,
+          440.5
+        ],
+        "position": "middle-center",
+        "area_pct": 4.066646357701416
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/01_Longitudinal_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/China_MotorBike_000303_jpg.rf.13d88ce35ca98112086f926d9f1f1c8c.jpg",
+    "sample_class": "Longitudinal Crack",
+    "severity_rule": "high",
+    "main_detection": "Transverse Crack",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Visible damage (type, rough size, location): Transverse Crack (20.9%), bottom-center.\n2. Detector check: Agree with the Transverse Crack detection but disagree with the Longitudinal Crack detections as they are not present.\n3. Recommended action: Repair the Transverse Crack immediately to prevent further damage."
+  },
+  {
+    "tag": "02_Longitudinal_Crack",
+    "dets": [
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.3070628046989441,
+        "box": [
+          386.8,
+          467.5,
+          434.9,
+          625.4
+        ],
+        "position": "bottom-center",
+        "area_pct": 1.8520687844138592
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/02_Longitudinal_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/Norway_007022_jpg.rf.6d2942cacc0ed47fe26b53bd35060fa5.jpg",
+    "sample_class": "Longitudinal Crack",
+    "severity_rule": "low",
+    "main_detection": "Longitudinal Crack",
+    "vlm_blind": "none\n\nThe road appears to be in good condition with no visible damages such as cracks or potholes.",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Longitudinal Crack (bottom-center)\n2. Agree with the detection.\n3. Monitor the crack for further deterioration."
+  },
+  {
+    "tag": "03_Longitudinal_Crack",
+    "dets": [
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.25525227189064026,
+        "box": [
+          502.4,
+          393.4,
+          564.9,
+          460.7
+        ],
+        "position": "bottom-right",
+        "area_pct": 1.026022193949757
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/03_Longitudinal_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/Norway_004526_jpg.rf.7a0a872d3f7859f8166f1ecb2af29e1e.jpg",
+    "sample_class": "Longitudinal Crack",
+    "severity_rule": "low",
+    "main_detection": "Longitudinal Crack",
+    "vlm_blind": "Longitudinal crack\n\nThe road has visible cracks running parallel to its length.",
+    "vlm_agrees_with_yolo": true,
+    "vlm_explanation": "1. Longitudinal Crack (bottom-right)\n2. Agree with the detection.\n3. Monitor the crack for further deterioration."
+  },
+  {
+    "tag": "04_Longitudinal_Crack",
+    "dets": [
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.7536322474479675,
+        "box": [
+          356.8,
+          456.6,
+          393.3,
+          493.8
+        ],
+        "position": "bottom-center",
+        "area_pct": 0.3310989239762421
+      },
+      {
+        "class": "Transverse Crack",
+        "conf": 0.5048006176948547,
+        "box": [
+          160.3,
+          431.8,
+          506.0,
+          445.0
+        ],
+        "position": "bottom-center",
+        "area_pct": 1.118452143326067
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/04_Longitudinal_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/Norway_002962_jpg.rf.affc3cbf73edd08995c6a5f18c383cae.jpg",
+    "sample_class": "Longitudinal Crack",
+    "severity_rule": "medium",
+    "main_detection": "Transverse Crack",
+    "vlm_blind": "Longitudinal crack\n\nThe road has visible cracks running parallel to its length.",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Transverse Crack (0.50 confidence), bottom-center, 1.1% of image.\n2. Agree with the detection. No other significant damage is visible.\n3. Monitor the crack for further deterioration and consider patching if necessary."
+  },
+  {
+    "tag": "05_Transverse_Crack",
+    "dets": [
+      {
+        "class": "Transverse Crack",
+        "conf": 0.7673667669296265,
+        "box": [
+          1.1,
+          232.1,
+          636.6,
+          282.7
+        ],
+        "position": "middle-center",
+        "area_pct": 7.857325649185441
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/05_Transverse_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/China_MotorBike_001700_jpg.rf.9d2eb9ccaa802eb5570e1118bb6f43a6.jpg",
+    "sample_class": "Transverse Crack",
+    "severity_rule": "high",
+    "main_detection": "Transverse Crack",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Transverse Crack (7.9% of image), middle-center\n2. Agree with the detection.\n3. Repair the crack immediately to prevent further damage."
+  },
+  {
+    "tag": "06_Transverse_Crack",
+    "dets": [
+      {
+        "class": "Transverse Crack",
+        "conf": 0.7968078851699829,
+        "box": [
+          128.5,
+          49.7,
+          331.7,
+          78.5
+        ],
+        "position": "top-center",
+        "area_pct": 1.429161011443398
+      },
+      {
+        "class": "Pothole",
+        "conf": 0.7262105345726013,
+        "box": [
+          5.9,
+          314.5,
+          591.6,
+          640.0
+        ],
+        "position": "bottom-center",
+        "area_pct": 46.54463513519295
+      },
+      {
+        "class": "Pothole",
+        "conf": 0.42245692014694214,
+        "box": [
+          1.6,
+          316.2,
+          450.5,
+          606.8
+        ],
+        "position": "bottom-center",
+        "area_pct": 31.84876290037937
+      },
+      {
+        "class": "Pothole",
+        "conf": 0.3844640851020813,
+        "box": [
+          454.2,
+          328.5,
+          640.0,
+          432.8
+        ],
+        "position": "middle-right",
+        "area_pct": 4.72928578975916
+      },
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.3755744993686676,
+        "box": [
+          124.5,
+          0.2,
+          151.7,
+          50.4
+        ],
+        "position": "top-left",
+        "area_pct": 0.33339097623388625
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/06_Transverse_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/China_MotorBike_001326_jpg.rf.47ada8c5f85d51f79eaacf019c23eaf9.jpg",
+    "sample_class": "Transverse Crack",
+    "severity_rule": "high",
+    "main_detection": "Pothole",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Visible damage (type, rough size, location): Longitudinal crack (length: unknown, width: unknown), Transverse crack (length: unknown, width: unknown), both located near the center of the image.\n2. Detector check: Agree with the detections of the longitudinal and transverse cracks. Disagree with the detections of the potholes, as they do not appear to be significant enough to be considered potholes based on the given confidence scores.\n3. Recommended action: Inspect the road for any potential hazards caused by the cracks and take necessary repairs to ensure safety."
+  },
+  {
+    "tag": "07_Transverse_Crack",
+    "dets": [
+      {
+        "class": "Transverse Crack",
+        "conf": 0.8336352705955505,
+        "box": [
+          265.2,
+          501.0,
+          501.9,
+          557.2
+        ],
+        "position": "bottom-center",
+        "area_pct": 3.2456192782046855
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/07_Transverse_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/United_States_002869_jpg.rf.51a5189ae46f9e713916efa52d904385.jpg",
+    "sample_class": "Transverse Crack",
+    "severity_rule": "medium",
+    "main_detection": "Transverse Crack",
+    "vlm_blind": "none",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Transverse Crack (bottom-center, 3.2% of image)\n2. Agree with the detection.\n3. Apply sealant to the crack."
+  },
+  {
+    "tag": "08_Transverse_Crack",
+    "dets": [
+      {
+        "class": "Transverse Crack",
+        "conf": 0.8533194661140442,
+        "box": [
+          217.5,
+          86.3,
+          416.3,
+          122.3
+        ],
+        "position": "top-center",
+        "area_pct": 1.7485032739150483
+      },
+      {
+        "class": "Pothole",
+        "conf": 0.803044855594635,
+        "box": [
+          1.6,
+          409.1,
+          639.3,
+          640.0
+        ],
+        "position": "bottom-center",
+        "area_pct": 35.945750059951024
+      },
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.5958625078201294,
+        "box": [
+          164.9,
+          0.0,
+          211.0,
+          104.0
+        ],
+        "position": "top-left",
+        "area_pct": 1.1702757239704624
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/08_Transverse_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/China_MotorBike_001253_jpg.rf.08478fb185d24fbf02c869854ac8bb1c.jpg",
+    "sample_class": "Transverse Crack",
+    "severity_rule": "high",
+    "main_detection": "Pothole",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Visible damage (type, rough size, location): Pothole (35.9%), bottom-center.\n2. Detector check: Agree with the pothole detection but disagree with the crack detections. The transverse and longitudinal cracks are not visible in the provided image.\n3. Recommended action: Repair the pothole immediately to ensure safety for drivers."
+  },
+  {
+    "tag": "09_Transverse_Crack",
+    "dets": [
+      {
+        "class": "Transverse Crack",
+        "conf": 0.7155374884605408,
+        "box": [
+          43.5,
+          467.2,
+          518.2,
+          540.9
+        ],
+        "position": "bottom-center",
+        "area_pct": 8.535056428459939
+      },
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.7015888690948486,
+        "box": [
+          257.6,
+          403.8,
+          287.6,
+          473.3
+        ],
+        "position": "bottom-center",
+        "area_pct": 0.5084991525527585
+      },
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.6353992223739624,
+        "box": [
+          255.3,
+          401.7,
+          312.2,
+          489.2
+        ],
+        "position": "bottom-center",
+        "area_pct": 1.2161022501459229
+      },
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.5567267537117004,
+        "box": [
+          395.7,
+          544.3,
+          501.3,
+          639.9
+        ],
+        "position": "bottom-right",
+        "area_pct": 2.4644856008089846
+      },
+      {
+        "class": "Transverse Crack",
+        "conf": 0.5070698261260986,
+        "box": [
+          46.4,
+          504.0,
+          254.2,
+          538.7
+        ],
+        "position": "bottom-left",
+        "area_pct": 1.762663459668829
+      },
+      {
+        "class": "Transverse Crack",
+        "conf": 0.4074419438838959,
+        "box": [
+          361.6,
+          466.9,
+          518.8,
+          504.7
+        ],
+        "position": "bottom-right",
+        "area_pct": 1.4515147990478
+      },
+      {
+        "class": "Longitudinal Crack",
+        "conf": 0.4025076925754547,
+        "box": [
+          257.2,
+          404.0,
+          296.9,
+          484.8
+        ],
+        "position": "bottom-center",
+        "area_pct": 0.7831895476665522
+      },
+      {
+        "class": "Transverse Crack",
+        "conf": 0.388469398021698,
+        "box": [
+          280.8,
+          396.1,
+          390.2,
+          412.6
+        ],
+        "position": "middle-center",
+        "area_pct": 0.4393544433405623
+      },
+      {
+        "class": "Transverse Crack",
+        "conf": 0.2974531948566437,
+        "box": [
+          37.0,
+          500.7,
+          381.4,
+          539.2
+        ],
+        "position": "bottom-left",
+        "area_pct": 3.2376795159734684
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/09_Transverse_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/United_States_001646_jpg.rf.5cf503acf94570b1902cb339757654f1.jpg",
+    "sample_class": "Transverse Crack",
+    "severity_rule": "high",
+    "main_detection": "Transverse Crack",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Visible damage (type, rough size, location):\n   - Transverse Crack (8.5% of image, bottom-center)\n   - Transverse Crack (3.2% of image, bottom-left)\n   - Longitudinal Crack (2.5% of image, bottom-right)\n   - Transverse Crack (1.8% of image, bottom-left)\n   - Transverse Crack (1.5% of image, bottom-right)\n   - Longitudinal Crack (1.2% of image, bottom-center)\n\n2. Detector check:\n   Agree with all detections except for the Longitudinal Crack at the bottom-center, which is not mentioned in the image description.\n\n3. Recommended action:\n   Repair the visible cracks to prevent further deterioration and ensure road safety."
+  },
+  {
+    "tag": "10_Pothole",
+    "dets": [
+      {
+        "class": "Pothole",
+        "conf": 0.790126383304596,
+        "box": [
+          235.0,
+          28.8,
+          406.9,
+          630.5
+        ],
+        "position": "middle-center",
+        "area_pct": 25.253437586073233
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/10_Pothole.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/China_MotorBike_000813_jpg.rf.75fd9ca5a96b5a9604d52e88f31edbf3.jpg",
+    "sample_class": "Pothole",
+    "severity_rule": "high",
+    "main_detection": "Pothole",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Pothole (middle-center, 25.3% of image)\n2. Agree with the detection.\n3. Repair the pothole immediately to prevent further damage."
+  },
+  {
+    "tag": "11_Pothole",
+    "dets": [
+      {
+        "class": "Pothole",
+        "conf": 0.8467229604721069,
+        "box": [
+          0.0,
+          158.4,
+          640.0,
+          634.9
+        ],
+        "position": "middle-center",
+        "area_pct": 74.45809364318848
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/11_Pothole.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/China_MotorBike_000760_jpg.rf.1d5bb1bfb9a79cecaefa5e9462c834ea.jpg",
+    "sample_class": "Pothole",
+    "severity_rule": "high",
+    "main_detection": "Pothole",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Pothole (rough size: large, location: middle-center)\n2. Agree with the detection.\n3. Repair the pothole immediately to prevent further damage and ensure safety."
+  },
+  {
+    "tag": "12_Pothole",
+    "dets": [
+      {
+        "class": "Alligator Crack",
+        "conf": 0.7380498647689819,
+        "box": [
+          133.4,
+          478.4,
+          193.9,
+          507.5
+        ],
+        "position": "bottom-left",
+        "area_pct": 0.42962410887639635
+      },
+      {
+        "class": "Pothole",
+        "conf": 0.4632488191127777,
+        "box": [
+          0.1,
+          478.3,
+          124.1,
+          567.9
+        ],
+        "position": "bottom-left",
+        "area_pct": 2.7150587563914996
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/12_Pothole.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/Japan_000598_jpg.rf.859083355f86be12bc123ae51f431ece.jpg",
+    "sample_class": "Pothole",
+    "severity_rule": "medium",
+    "main_detection": "Pothole",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Visible damage (type, rough size, location):\n   - Pothole (small, bottom-left)\n   - Alligator Crack (small, bottom-left)\n\n2. Detector check:\n   - Agree with the pothole detection but disagree with the alligator crack detection.\n   - The alligator crack is not present.\n\n3. Recommended action:\n   - Repair the pothole to prevent further damage and ensure safe driving conditions."
+  },
+  {
+    "tag": "13_Pothole",
+    "dets": [
+      {
+        "class": "Pothole",
+        "conf": 0.882882833480835,
+        "box": [
+          0.0,
+          379.9,
+          407.5,
+          635.7
+        ],
+        "position": "bottom-left",
+        "area_pct": 25.444288878934458
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/13_Pothole.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/Japan_005445_jpg.rf.5a25da31a79748d084ed6283e7194800.jpg",
+    "sample_class": "Pothole",
+    "severity_rule": "high",
+    "main_detection": "Pothole",
+    "vlm_blind": "Transverse crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Pothole (rough size: large, location: bottom-left)\n2. Agree with the detection.\n3. Repair the pothole immediately to prevent further damage and ensure safety."
+  },
+  {
+    "tag": "14_Pothole",
+    "dets": [
+      {
+        "class": "Pothole",
+        "conf": 0.7767199277877808,
+        "box": [
+          40.7,
+          362.9,
+          623.3,
+          639.7
+        ],
+        "position": "bottom-center",
+        "area_pct": 39.37210673273148
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/14_Pothole.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/Japan_006095_jpg.rf.2f6241d2e5579d0e5b5276287b5c5624.jpg",
+    "sample_class": "Pothole",
+    "severity_rule": "high",
+    "main_detection": "Pothole",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Visible damage (type, rough size, location): Pothole, large, bottom-center of the image.\n2. Detector check: Agree with the detection of a pothole. The detector missed any other potential damages.\n3. Recommended action: Repair the pothole immediately to ensure safety and prevent further damage."
+  },
+  {
+    "tag": "15_Alligator_Crack",
+    "dets": [
+      {
+        "class": "Pothole",
+        "conf": 0.8309023380279541,
+        "box": [
+          0.2,
+          446.5,
+          173.5,
+          640.0
+        ],
+        "position": "bottom-left",
+        "area_pct": 8.188936975906813
+      },
+      {
+        "class": "Alligator Crack",
+        "conf": 0.751334011554718,
+        "box": [
+          234.5,
+          375.4,
+          290.9,
+          394.5
+        ],
+        "position": "middle-center",
+        "area_pct": 0.26271042124608357
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/15_Alligator_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/Japan_012399_jpg.rf.d21192be4599d19d0793bfb1e16f66f0.jpg",
+    "sample_class": "Alligator Crack",
+    "severity_rule": "high",
+    "main_detection": "Pothole",
+    "vlm_blind": "Transverse crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Pothole (8.2% of image, bottom-left)\n2. Agree with the detection.\n3. Repair the pothole immediately to prevent further damage."
+  },
+  {
+    "tag": "16_Alligator_Crack",
+    "dets": [
+      {
+        "class": "Alligator Crack",
+        "conf": 0.693937361240387,
+        "box": [
+          313.1,
+          413.2,
+          341.8,
+          433.5
+        ],
+        "position": "middle-center",
+        "area_pct": 0.1425931474150275
+      },
+      {
+        "class": "Pothole",
+        "conf": 0.4095475375652313,
+        "box": [
+          203.4,
+          422.4,
+          335.5,
+          551.1
+        ],
+        "position": "bottom-center",
+        "area_pct": 4.151204349540649
+      },
+      {
+        "class": "Transverse Crack",
+        "conf": 0.2502000629901886,
+        "box": [
+          335.6,
+          423.7,
+          417.5,
+          439.1
+        ],
+        "position": "bottom-center",
+        "area_pct": 0.30780996079556644
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/16_Alligator_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/United_States_000807_jpg.rf.98a674d0f05479e940d3134d58df79e8.jpg",
+    "sample_class": "Alligator Crack",
+    "severity_rule": "medium",
+    "main_detection": "Pothole",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Visible damage (type, rough size, location):\n   - Pothole: small, bottom-center\n   - Transverse Crack: small, bottom-center\n\n2. Detector check:\n   - Agree with the pothole detection but disagree with the transverse crack detection.\n   - The alligator crack was not detected by the automatic detector.\n\n3. Recommended action:\n   - Repair the pothole to prevent further damage and ensure road safety."
+  },
+  {
+    "tag": "17_Alligator_Crack",
+    "dets": [
+      {
+        "class": "Alligator Crack",
+        "conf": 0.7370110154151917,
+        "box": [
+          158.8,
+          118.0,
+          182.4,
+          135.2
+        ],
+        "position": "top-left",
+        "area_pct": 0.09852787467661983
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/17_Alligator_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/China_MotorBike_000127_jpg.rf.40d602bab6a4d1bf5a19cefd17a537b5.jpg",
+    "sample_class": "Alligator Crack",
+    "severity_rule": "medium",
+    "main_detection": "Alligator Crack",
+    "vlm_blind": "none",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Alligator Crack (top-left corner)\n2. Agree with the detection.\n3. Apply asphalt patching to the crack area."
+  },
+  {
+    "tag": "18_Alligator_Crack",
+    "dets": [
+      {
+        "class": "Alligator Crack",
+        "conf": 0.4879867136478424,
+        "box": [
+          589.0,
+          473.5,
+          607.6,
+          482.7
+        ],
+        "position": "bottom-right",
+        "area_pct": 0.0416718757696799
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/18_Alligator_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/Norway_003302_flip_jpg.rf.0ea6cf37561018cc4b1b7a3fc5a0ebed.jpg",
+    "sample_class": "Alligator Crack",
+    "severity_rule": "medium",
+    "main_detection": "Alligator Crack",
+    "vlm_blind": "none\n\nThe road appears to be in good condition with no visible damages such as cracks or potholes.",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. No visible damage.\n2. Agree with the alligator crack detection but disagree with its location and rough size.\n3. Inspect the road for any potential cracks or damages."
+  },
+  {
+    "tag": "19_Alligator_Crack",
+    "dets": [
+      {
+        "class": "Alligator Crack",
+        "conf": 0.6885784268379211,
+        "box": [
+          0.0,
+          460.7,
+          53.8,
+          502.8
+        ],
+        "position": "bottom-left",
+        "area_pct": 0.5527786629742764
+      }
+    ],
+    "figure": "/content/drive/MyDrive/road_crack_detection/yolo26s_strip_vlm/gradcam/19_Alligator_Crack.png",
+    "no_detection": false,
+    "image": "/content/test_fixed/test/images/Japan_002546_jpg.rf.22304eb21b675de384f1f9e390113782.jpg",
+    "sample_class": "Alligator Crack",
+    "severity_rule": "medium",
+    "main_detection": "Alligator Crack",
+    "vlm_blind": "Longitudinal crack",
+    "vlm_agrees_with_yolo": false,
+    "vlm_explanation": "1. Visible damage (type, rough size, location):\n   - Alligator Crack (small, bottom-left corner)\n\n2. Detector check: Agree with the detection.\n\n3. Recommended action:\n   - Repair the alligator crack to prevent further deterioration."
+  }
+]
